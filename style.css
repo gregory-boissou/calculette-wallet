@@ -50,6 +50,7 @@
   
   .result {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
   }
@@ -57,7 +58,7 @@
   .result .wallet {
     background-color: #242a3c;
     border-radius: 10px;
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
     padding: 10px;
     margin-bottom: 20px;
   }
