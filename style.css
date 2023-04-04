@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #14161f;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .calculator {
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: #1b1f2f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  .calculator h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type=number] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: #242a3c;
+    color: #fff;
+  }
+  
+  .result {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .result .wallet {
+    background-color: #242a3c;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .result .wallet h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .result .wallet p {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .result .wallet p:before {
+    content: "$";
+    font-size: 0.5em;
+    vertical-align: super;
+  }
+
+  #active-wallet, #passive-wallet {
+    font-size: 2em;
+  }
+
+  .wallet p {
+    font-size: 1.5rem;
+  }
+  
